@@ -78,8 +78,8 @@ window.addEventListener("DOMContentLoaded", async () => {
     let cookiePopup = document.getElementById("flowappz-cookie-consent");
     if (!cookiePopup) console.error("Cookie popup is enabled but can not find the container!");
     else {
-      cookiePopup.style.display = "block";
-      cookiePopup.style.zIndex = "99999";
+      cookiePopup.style.display = "flex";
+      cookiePopup.style.zIndex = "400";
     }
 
     const agreeButton = document.getElementById("flowappz-cookie-consent-approve");
